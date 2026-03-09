@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions
+    url: https://discord.gg/xgUvAqvxxa
+    about: If you have questions, please join our Discord server to ask for help.
+  - name: Contributing
+    url: 'https://github.com/PrivateBeeTEST/privatebee-docs/blob/main/CONTRIBUTING.md'
+    about: Before opening a new issue, please make sure to read CONTRIBUTING.md

@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report a bug
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the fields below to help us understand and fix the problem.
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue summary
+      placeholder: Briefly describe what went wrong
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to page X
+        2. Click action Y
+        3. Observe behavior Z
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Describe what you expected to happen
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recordings (optional)
+  - type: markdown
+    attributes:
+      value: |
+        ### Assignees
+        If you know who should work on this bug, you can assign team members after creating the issue by using the "Assignees" section on the right side of the issue page.
+  - type: markdown
+    attributes:
+      value: |
+        _Inspiration: https://github.com/DevLeonardoCommunity/github-stats/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml_

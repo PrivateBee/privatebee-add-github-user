@@ -1,0 +1,43 @@
+name: New feature
+description: Suggest or request a new feature
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the fields below to explain the feature you want to add.
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature summary
+      placeholder: Briefly describe the new capability and what it enables
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this is needed
+      placeholder: Explain the problem it solves or the value it brings
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra details
+      placeholder: |
+        Add any relevant context, links, or screenshots.
+  - type: markdown
+    attributes:
+      value: |
+        ### Assignees
+        If you know who should work on this feature, you can assign team members after creating the issue by using the "Assignees" section on the right side of the issue page.
+  - type: textarea
+    id: assignees
+    attributes:
+      label: Suggested assignees (optional)
+      placeholder: |
+        Mention team members who might be interested in working on this feature (e.g., @username)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        _Inspiration: https://github.com/DevLeonardoCommunity/github-stats/blob/main/.github/ISSUE_TEMPLATE/new-feature.yml_

@@ -31,9 +31,15 @@ The system computes the **optimal trajectory** not only in **space** but also in
 
 ```
 privatebee-template/
-├── CODE_OF_CONDUCT.md              -> Expected behavior guidelines
-├── CONTRIBUTING.md                 -> Guidelines for contributing
-├── GOVERNANCE.md                   -> Project governance structure
+├── .github/                        -> GitHub configuration files
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug-report.yml          -> Bug report issue template
+│   │   ├── config.yml              -> Issue template configuration
+│   │   └── new-feature.yml         -> Feature request issue template
+│   └── PULL_REQUEST_TEMPLATE.md    -> Pull request template
+├── .gitignore                      -> Git ignore rules
+├── bot_github.py                   -> Discord bot for GitHub automation
+├── invite_users.py                 -> Script to invite users to the organization
 ├── LICENSE.md                      -> Project license
 └── README.md                       -> Project overview and documentation
 ```

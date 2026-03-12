@@ -30,7 +30,7 @@ The system computes the **optimal trajectory** not only in **space** but also in
 ## Repository Structure <!-- Adapt the structure with your project's structure -->
 
 ```
-privatebee-template/
+privatebee-add-github-user/
 ├── .github/                        -> GitHub configuration files
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug-report.yml          -> Bug report issue template
